@@ -19,6 +19,13 @@
 				 color: #4e4e4e;
 				 font-size: 40px;
 				}
+
+				h3 {
+					color: #565656;
+					background: #ccc;
+					padding: 5px;
+				}
+
 					.branco {
 					 color: #fff;
 					}
@@ -27,16 +34,25 @@
 						text-decoration: none;
 						}
 						a:link, a:visited {
-						color:#fff;
+						color:#f7b600;
 						padding: 8px 12px;
 						}
 						a:hover {
 						color:#f7b600;
-						background:#fff;
+						text-decoration: underline;
+						}
+						nav a:link, nav a:visited{
+						color: #fff;
+						padding: 8px 12px;
+						}
+						nav a:hover{
+						color: #f7b600;
+						background: #fff;
+						text-decoration: none;
 						}
 								section{
 								width: 920px;
-								margin: 0 auto;
+								margin: 0px auto;
 								padding: 15px;
 								}
 									#post{
@@ -48,7 +64,7 @@
 									width: 240px;
 									float: right;
 									}	 
-
+ 
 								footer{
 								clear: both;												
 								text-align: center;
@@ -64,3 +80,28 @@
 								img{
 								width: 620px;
 								}
+
+					.dataPost{
+						font-size: 0.8em;
+						border-bottom: 1px solid #f4f4f4;
+						padding-bottom: 10px;
+						margin-bottom: 10px;
+						display: block;
+						padding: 10px;
+						}
+
+					.conteudo-lateral {
+						background: #fff;
+						padding: 10px;
+						margin-bottom: 20px;
+					}
+
+					.texto-lateral {
+						font-size:0.8em;
+						padding: 5px;
+					}
+
+
+
+			
+
