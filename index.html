@@ -1,58 +1,122 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="PT-br">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="desprograme">
-	<meta name="author" content="Tatiana Carvalho">
+ 	<meta name="description" content="">
+    <meta name="author" content="">
 
-	<title>Meu Portifólio</title>
+    <title>Meu primeiro Site</title>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
+<!-- Bootstrap core CSS -->
+    
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	
+	<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
 
-		<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link href="css/landing-page.css" rel="stylesheet">
+
 </head>
-
 <body>
-   	<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:#993366; color:#ffffff">
+
+<!-- Navigation -->
+    <nav class="navbar navbar-light bg-dark static-top">
       <div class="container">
-        <a class="navbar-brand"><center><h5>Meu portifolio</h5></center></a>
+        <a class="navbar-brand text-white" href="#">Meu portifolio</a>
       </div>
     </nav>
 
-	<section>
-		<div class="container-fluid">
-			<div class="row mt-5 mb-5">
+<!-- Masthead -->
 
-				<div class="text-center col-xs-4 col-sm-4 col-md-4 col-lg-4 col-12 mt-3 mb-3">
-					<i class="icone icon-screen-desktop m-auto text-primary"></i>
-					<h2>Dev Tech</h2>
-					<p>Aula 1</p>
-					<a href="./devtech/index.html">Ver mais</a>
-				</div>
+    <header class="masthead text-white text-center img-fluid">
+      <div class="overlay"></div>
+    </header>
 
-				<div class="text-center col-xs-4 col-sm-4 col-md-4 col-lg-4 col-12 mt-3 mb-3">
-					<i class="icone icon-pencil m-auto text-primary"></i>
-					<h2>Meu Bootstrap</h2>
-					<p>Aula 2</p>
-					<a href="./meubootstrap/index.html">Ver mais</a>
-				</div>
+	<section class="bg-light text-center features-icons"> 
+		
+        <div class="container">
+          <div class="row">
 
-				<div class="text-center col-xs-4 col-sm-4 col-md-4 col-lg-4 col-12 mt-3 mb-3">
-					<i class="icone icon-magic-wand m-auto text-primary"></i>
-					<h2>Mulheres na Programação</h2>
-					<p>Aula 3</p>
-					<a href="./mulheresnaprogramacao/index.html">Ver mais</a>
-				</div>
+            <div class="col-lg-4">
+            	<h3>HTML - DevTech </h3>
+        		<p class="lead mb-0">Aula 1</p>
+ 		      	<a href=./devtech/index.html">Veja agora</a>
+            </div>
 
-			</div>
-		</div>
-	</section>
+            <div class="col-lg-4">
+				<h3>Meu Bootstrap</h3>
+      			<p class="lead mb-0">Aula 2</p>
+      			<a href="./meubootstrap/index.html">Veja agora</a>
+  			</div>
+
+  			<div class="col-lg-4">
+       			<h3>Mulheres na Programação</h3>
+       			<p class="lead mb-0">Aula 3</p>
+       			<a href="./mulheresnaprogramacao/index.html">Veja agora</a>
+  			 </div>
+
+
+          </div>
+        </div>
+    </section>
+    
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row">
+
+           <div class="col-lg-6 order-lg-2 showcase-img">
+           		<img src="img/bg-showcase-1.jpg">
+           </div>
+
+
+           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+           		<h2>Tecnologia</h2>
+   				<p class="lead mb-0">É minha maior paixão desse criança, curto coisa tecnologia, conforme eu crescia mais coisas me fascinava</p>
+
+           </div>
+
+        </div>
+      </div>
+
+    </section>
+
+<footer class="footer bg-dark text-center">
+
+    <div class="container">
+		<h2 class="mb-5">Meus contatos </h2>
+    	<div class="row">
+	</div>
+
+	<div class="col-lg h-100 text-center my-auto">
+   		<ul class="list-inline ">
+      		<li class="list-inline-item ">
+        	 <a href="https://www.facebook.com/bialeca" target="_blank"> <i class="fa fa-facebook fa-2x fa-fw">	</i></a>
+      		</li>
+    	
+    		<li class="list-inline-item mr-3">
+        	 <a href="https://twitter.com/bialeca" target="_blank"><i class="fa fa-twitter fa-2x fa-fw"></i></a>
+    		</li>
+    	
+    		<li class="list-inline-item">
+        	 <a href="https://www.instagram.com/bialeca/"target="_blank"> <i class="fa fa-instagram fa-2x fa-fw"></i></a>
+    		</li>
+
+   		</ul>
+	</div>
+</footer>
+
+ <!-- Bootstrap core JavaScript-->
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+
 </body>
 </html>
