@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<img src="http://i.stack.imgur.com/b983w.jpg" id="luz" />
+
+</head>
+<script>
+(function(){
+
+    var inteira = true;
+    var img = document.getElementById("luz");
+    var estado = {
+        click: 'http://i.stack.imgur.com/MRjsF.jpg',
+        mouseenter: 'http://i.stack.imgur.com/ybxlO.jpg',
+        mouseleave: 'http://i.stack.imgur.com/b983w.jpg'
+    };
+
+    img.addEventListener('click', mudaLampada);
+    img.addEventListener('mouseenter', mudaLampada);
+    img.addEventListener('mouseleave', mudaLampada);
+
+    function mudaLampada(evento) {
+        if (!inteira) return; // se já estiver partida nõ fazer nada
+        if (evento.type == 'click') inteira = false; // marcar como partida
+        img.src = estado[evento.type];
+    }
+
+})();
+</script>
+</html>
